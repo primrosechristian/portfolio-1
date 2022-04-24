@@ -93,8 +93,8 @@ h2 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(/images/profile-pic-mask.svg);
-  mask-image: url(/images/profile-pic-mask.svg);
+  -webkit-mask-image: url(images/profile-pic-mask.svg);
+  mask-image: url(images/profile-pic-mask.svg);
   -webkit-mask-size: 400px;
   mask-size: 400px;
   -webkit-mask-repeat: no-repeat;
