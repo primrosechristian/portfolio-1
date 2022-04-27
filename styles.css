@@ -235,9 +235,6 @@ section.clients > ul > li > svg {
   margin-top: 63px;
 }
 
-.gallery {
-  height: 1100px;
-}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -294,11 +291,73 @@ h4 {
   width: 120px; 
   height: 120px; 
   padding: 0; 
- }
+}
  .scaling-svg {
   position: absolute; 
   height: 100%; 
   width: 100%; 
   left: 0; 
   top: 0;
+}
+
+.clients-card {
+  width: 330px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F3F3F3;;
+  padding: 28px;
+  box-sizing: border-box;
+  word-spacing: 3px;
+  margin-bottom: 24px;
+
+}
+ 
+.clients-rating-card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin: 30px;
+
+}
+
+
+ .clients-rating {
+   height: 750px;
  }
+ 
+
+ .rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+.clients-card > p {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.star > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.star {
+  margin-left: 18px;
+}
+.card-image > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+ 
+
+ 
+ 
+
+ 
